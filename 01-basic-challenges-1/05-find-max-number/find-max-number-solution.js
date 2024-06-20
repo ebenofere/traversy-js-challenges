@@ -1,6 +1,7 @@
 // Solution 1 - Simplest solution
 function findMaxNumber(arr) {
   // Math.max() can take any number of arguments, so we can use the spread operator
+  // The ... (spread operator) is used to spread out the elements of the array arr so that they are passed as individual arguments to Math.max.
   return Math.max(...arr);
 }
 
