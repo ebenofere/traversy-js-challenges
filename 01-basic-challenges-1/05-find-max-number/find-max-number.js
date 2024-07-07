@@ -1,5 +1,6 @@
 function findMaxNumber(arr) {
-    return Math.max(...arr);
+   return Math.max(...arr);
+
 }
 
 module.exports = findMaxNumber;
